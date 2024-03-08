@@ -23,5 +23,7 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=true
 alias ststate="systemctl status syncthing@$USER.service"
 
 ################ Docker ###################
+alias docker-alias='echo "d d-d dprune"'
 alias d='docker $*'
 alias d-c='docker-compose $*'
+alias dprune="docker rm $(docker ps -a -q -f status=exited)"
