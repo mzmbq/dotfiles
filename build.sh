@@ -7,5 +7,6 @@ if [[ -e "$output_file" ]]; then
 fi
 
 for file in "$files"/*; do
+    echo "" >> "$output_file"
     cat "$file" >> "$output_file"
 done
