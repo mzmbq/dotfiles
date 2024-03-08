@@ -22,3 +22,4 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=true
 # Syncthing
 ##########################################
 alias ststate="systemctl status syncthing@$USER.service"
+
