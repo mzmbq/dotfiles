@@ -1,5 +1,5 @@
 # Man Command colorizer
-man() {
+function man() {
 	env \
 		LESS_TERMCAP_md=$'\e[1;36m' \
 		LESS_TERMCAP_me=$'\e[0m' \
