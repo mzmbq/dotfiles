@@ -13,11 +13,15 @@ alias ..='cd ..'
 alias lsc='clear; ls'
 alias lsd='ls -d */'
 
+################## Zsh ###################
+alias reload='. ~/.zshrc'
 
 ################# Misc ###################
 export DOTNET_CLI_TELEMETRY_OPTOUT=true
 
-
 ############### Syncthing ################
 alias ststate="systemctl status syncthing@$USER.service"
 
+################ Docker ###################
+alias d='docker $*'
+alias d-c='docker-compose $*'
