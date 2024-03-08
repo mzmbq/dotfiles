@@ -25,7 +25,7 @@ alias ststate="systemctl status syncthing@$USER.service"
 ################ Docker ###################
 alias d='docker $*'
 alias d-c='docker-compose $*'
-alias dprune="docker rm $(docker ps -a -q -f status=exited)"
+alias dprune="docker container prune -f"
 
 ################# Git #####################
 alias gs='git status'
