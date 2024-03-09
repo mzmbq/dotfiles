@@ -15,6 +15,7 @@ alias lsd='ls -d */'
 
 ################## Zsh ###################
 alias reload='. ~/.zshrc'
+alias dotbuild='cd ~/dotfiles && make build && reload && cd -'
 
 ################# Misc ###################
 export DOTNET_CLI_TELEMETRY_OPTOUT=true
