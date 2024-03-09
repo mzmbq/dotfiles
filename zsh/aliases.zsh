@@ -15,7 +15,7 @@ alias lsd='ls -d */'
 
 ################## Zsh ###################
 alias reload='. ~/.zshrc'
-alias dotbuild='cd ~/dotfiles && make build && reload && cd -'
+alias rebuild='cd ~/dotfiles && make build && cd - && reload'
 alias personal='nvim ~/dotfiles/zsh/personal.zsh'
 
 ################# Misc ###################
