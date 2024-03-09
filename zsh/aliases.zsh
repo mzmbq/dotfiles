@@ -16,6 +16,7 @@ alias lsd='ls -d */'
 ################## Zsh ###################
 alias reload='. ~/.zshrc'
 alias dotbuild='cd ~/dotfiles && make build && reload && cd -'
+alias personal='nvim ~/dotfiles/zsh/personal.zsh'
 
 ################# Misc ###################
 export DOTNET_CLI_TELEMETRY_OPTOUT=true
