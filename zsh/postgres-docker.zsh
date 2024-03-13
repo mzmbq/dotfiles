@@ -26,7 +26,7 @@ function pgstart {
             -e POSTGRES_DB=table_dev \
             --name=pg \
             -p 5432:5432 \
-            -v pgdb:/var/lib/postgresql/data \
+            -v ./pgdb:/var/lib/postgresql/data \
             --network pg-net \
             -d \
             postgres
@@ -48,7 +48,7 @@ function pgastart {
         -e 'PGADMIN_DEFAULT_EMAIL=user@user.user' \
         -e 'PGADMIN_DEFAULT_PASSWORD=secret' \
         --name pgadmin \
-        -v pgadmin:/var/lib/pgadmin \
+        -v ./pgadmin:/var/lib/pgadmin \
         --network pg-net \
         -d \
         dpage/pgadmin4
