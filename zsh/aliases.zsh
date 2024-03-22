@@ -9,6 +9,7 @@ alias top5='du -ahx . | sort -rh | head -5'
 alias c=clear
 alias cd..='cd ..'
 alias ..='cd ..'
+alias ...='cd ../..'
 
 alias lsc='clear; ls'
 alias lsd='ls -d */'
