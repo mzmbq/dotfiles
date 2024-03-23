@@ -18,6 +18,7 @@ alias lsd='ls -d */'
 alias reload='. ~/.zshrc'
 alias rebuild='cd ~/dotfiles && make build && cd - && reload'
 alias personal='nvim ~/dotfiles/zsh/personal.zsh && rebuild'
+alias dotpull='cd ~/dotfiles && gl && cd - && rebuild'
 
 ################# Misc ###################
 export DOTNET_CLI_TELEMETRY_OPTOUT=true
