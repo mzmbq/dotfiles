@@ -32,5 +32,9 @@ alias d='docker $*'
 alias d-c='docker-compose $*'
 alias dprune="docker container prune -f"
 
+################ Redash ###################
+alias redash="cd /opt/redash && docker compose up -d"
+alias redashdown="cd /opt/redash && docker compose down"
+
 ################# Git #####################
 alias gs='git status'
