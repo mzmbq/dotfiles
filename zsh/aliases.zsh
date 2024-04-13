@@ -22,6 +22,7 @@ alias dotpull='cd ~/dotfiles && gl && cd - && rebuild'
 
 ################# Misc ###################
 export DOTNET_CLI_TELEMETRY_OPTOUT=true
+alias upd="sudo apt update && sudo apt upgrade -y"
 
 ############### Syncthing ################
 alias ststate="systemctl status syncthing@$USER.service"
