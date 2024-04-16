@@ -48,3 +48,12 @@ function denter {
  docker exec -it $1 bash
  return 0
 }
+
+alarm() {
+
+	if [[ $# -eq 1 ]]; then
+		sleep $1m
+	fi
+
+	mpv ~/data/alarm.wav
+}
