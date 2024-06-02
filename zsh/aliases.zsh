@@ -29,7 +29,7 @@ alias ststate="systemctl status syncthing@$USER.service"
 
 ################ Docker ###################
 alias d='docker $*'
-alias d-c='docker-compose $*'
+alias dc='docker compose $*'
 alias dprune="docker container prune -f"
 
 ################ Redash ###################
